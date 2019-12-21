@@ -3,7 +3,7 @@
 .container{
   margin: 0 auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+  height: 70vh;
 }
 
 h3{
