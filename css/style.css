@@ -3,11 +3,21 @@
 .container{
   margin: 0 auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
-h3{
-  color: #777777;
+.parallax {
+  /* The image used */
+  background-image: url("../assets/images/unsplash3.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -38,15 +48,26 @@ h3{
  }
 
   #aboutme-wrapper{
-    background: #ffffff;
+    /* background: #ffffff; */
+    color: white;
   }
   
-  .content{
-    background: url(../assets/images/regal.png);
-    padding-bottom: 70px;
-    padding-top: 90px;
+  .subtitle{
+    color: white;
+  }
+
+  .content{ 
+    background: url(../assets/images/unsplash3.jpg) no-repeat;
+    background-size: cover;
+    /* padding-bottom: 70px; */
+    /* padding-top: 90px; */
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    min-height: 80vh;
+    min-height: 80vh; 
+  } 
+
+  .name-title{
+    padding: 300px 0px 0px 0px;
+    color: white;
   }
 
   .navbarNav {
@@ -74,8 +95,8 @@ h3{
 
   .footer{
     color: #ffffff;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-top: 8px solid  #aa4a85;
+    /* font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+    /* border-top: 8px solid  #aa4a85; */
     /* margin-top: -40px; */
        bottom: 0;
       width: 100%;
