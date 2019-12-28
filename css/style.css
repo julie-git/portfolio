@@ -24,7 +24,12 @@ body, html {
   background-size: cover;
 }
 
-
+.icon-row i{
+  display:flex;
+  align-content: space-between;
+  color: white;
+  margin: 10px;
+}
   .header-wrapper{
     border-bottom: 1px solid #777777;
     scroll-margin-bottom: 0px;
@@ -54,12 +59,17 @@ body, html {
 
   .about-title{
     width:100%;
+    color: white;
+
   }
 
   .aboutme-box{
     /* margin: 100px 50px 50px 50px; */
     background-color: white;
     border: 1px black;
+  }
+  #about-text{
+    margin-left: 50px;
   }
 
   .content{ 
