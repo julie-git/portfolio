@@ -52,6 +52,11 @@ body, html {
     /* background: #ffffff; */
     color: white;
   }
+
+  .aboutme-wrapper{
+    background: white;
+    /* width:80%; */
+  }
   
   .subtitle{
     color: white;
@@ -59,17 +64,34 @@ body, html {
 
   .about-title{
     width:100%;
-    color: white;
+    /* background: white; */
 
   }
 
   .aboutme-box{
     /* margin: 100px 50px 50px 50px; */
-    background-color: white;
+     background-color: white; 
     border: 1px black;
   }
+
+
+  .aboutme-box p{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .aboutme-box em{
+    font-weight: bold;
+    margin-top: 100px;
+  }
+
+
   #about-text{
     margin-left: 50px;
+    /* background: white; */
+    /* border-top: 1px solid #777777 ; */
+    /* color: #777777; */
+    color:#777777;
   }
 
   .content{ 
@@ -169,8 +191,9 @@ body, html {
       top: 70%;
       color: white;
       background: #9b3172;
-      width: 200px;
+      width: 300px;
       height: 30px;
+      margin-left: 50px;
     }
 
   /* #grid .row {
@@ -190,9 +213,10 @@ body, html {
     margin-top: 8px;
     /* vertical-align: middle; */
     /* width: 100%; */
-    max-width: 200px;
-    max-height: 150px;
-    border-color: #777777;
+    margin-left: 50px;
+    max-width: 300px;
+    max-height: 241px;
+    border: 1px #777777;
   }
   
 
