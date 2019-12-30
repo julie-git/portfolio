@@ -24,6 +24,11 @@ body, html {
   background-size: cover;
 }
 
+/* .port-hover:hover {
+  /* background: #FF00FF; */
+  /* height: 50px; */
+/* } */ 
+
 .icon-row i{
   display:flex;
   align-content: space-between;
@@ -51,7 +56,15 @@ body, html {
   #aboutme-wrapper{
     /* background: #ffffff; */
     color: white;
+    
   }
+
+  .aboutme-wrapper2{
+    background:transparent;
+    /* padding-top: 300px; */
+    /* margin-top: 100px; */
+  }
+
 
   .aboutme-wrapper{
     background: white;
@@ -64,21 +77,28 @@ body, html {
 
   .about-title{
     width:100%;
-    /* background: white; */
+    background: white;
+    margin: 0;
 
   }
 
   .aboutme-box{
     /* margin: 100px 50px 50px 50px; */
      background-color: white; 
-    border: 1px black;
+    /* border: 1px black; */
+    padding: 50px;
+
   }
 
 
   .aboutme-box p{
     margin-left: 100px;
-    margin-top: 50px;
+    
   }
+
+  .aboutme-box img{
+   float: right;
+   }
 
   .aboutme-box em{
     font-weight: bold;
