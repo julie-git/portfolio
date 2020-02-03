@@ -62,7 +62,7 @@ body, html {
   .aboutme-wrapper2{
     background:transparent;
     /* padding-top: 300px; */
-    /* margin-top: 100px; */
+     margin-top: 50px; 
   }
 
 
@@ -97,8 +97,10 @@ body, html {
   }
 
   .aboutme-box img{
-   float: right;
-   }
+   float: left;
+    border-radius: 50%;
+  }
+   
 
   .aboutme-box em{
     font-weight: bold;
@@ -197,9 +199,9 @@ body, html {
 
     
   .grid{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     padding-left: 20px;
      }
@@ -275,8 +277,11 @@ body, html {
     }
   .card{
     width: 30rem;
-  }
-  .card-img-top{
-    border: 1px #777777;
+    box-shadow: 5px 3px 8px grey;
+}
+  
+  img.card-img-top{
+     border-bottom: 1px solid #777777;
+     
   }
   
