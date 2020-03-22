@@ -4,25 +4,29 @@
 body, html {
   height: 100%;
 }
-.container{
+
+.home-container{
   margin: 0 auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  /* height: 70vh; */
-}
+  background: url(../assets/images/unsplash3.jpg) no-repeat; 
+  background-size: cover; 
+  margin: 0 auto;
+  height: 800px;
+  margin-bottom: 0px;
+  /* height: vh; */
 
-.parallax {
+
+/* .parallax {
   /* The image used */
-  background-image: url("../assets/images/unsplash3.jpg");
-
-  /* Set a specific height */
-  height: 500px;
+   /* Set a specific height */
+  /* height: 500px; */
 
   /* Create the parallax scrolling effect */
   /* background-attachment: fixed; */
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  /* background-size: cover; */
+} 
 
 /* .port-hover:hover {
   /* background: #FF00FF; */
@@ -117,9 +121,9 @@ body, html {
   }
 
   .content{ 
-    background: url(../assets/images/unsplash3.jpg) no-repeat; 
+    /* background: url(../assets/images/unsplash3.jpg) no-repeat; 
     background-size: cover; 
-    margin: 0 auto;
+    margin: 0 auto; */
 
     /* background-attachment: fixed; */
     /* padding-bottom: 70px; */
